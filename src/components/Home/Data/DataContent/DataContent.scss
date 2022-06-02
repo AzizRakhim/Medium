@@ -1,0 +1,37 @@
+.dataContent{
+  width: 100%;
+  max-width: 692px;
+}
+
+.dataContent__title{
+  padding-left: 30px;
+  margin-top: 1.75em;
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: -0.009em;
+  line-height: 40px;
+  color: rgba(117, 117, 117, 1);
+  margin-bottom: 0;
+}
+
+.dataContent__d{
+  letter-spacing: -0.003em;
+  line-height: 32px;
+  margin-top: 2.48em;
+  font-size: 20px;
+  margin-bottom: 0;
+  color: rgba(41, 41, 41, 1);
+}
+
+.dataContent__img-holder{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 56px;
+  margin-bottom: 40px;
+  
+  img{
+    width: 100%;
+    object-fit: cover;
+  }
+}

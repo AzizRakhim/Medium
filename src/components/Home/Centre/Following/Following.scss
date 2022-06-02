@@ -1,0 +1,34 @@
+.following{
+  width: 100%;
+  max-width: 692px;
+  display: flex;
+  justify-content: start;
+  padding-bottom: 32px;
+}
+
+.following__list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 39px;
+  box-shadow: inset 0 -1px 0 rgb(230 230 230);
+  width: 100%;
+}
+
+.following__item{
+  margin-right: 32px;
+  padding-bottom: 16px;
+}
+
+.following__btn{
+  border: none;
+  background-color: transparent;
+  color: rgba(117, 117, 117, 1);
+  line-height: 20px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+
+  &:hover{
+    color: rgba(41, 41, 41, 1);
+  }
+}

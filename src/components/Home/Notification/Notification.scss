@@ -1,0 +1,25 @@
+.notification{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.notification__box{
+  width: 100%;
+  max-width: 692px;
+  height: 200px;
+  background-color: red;
+}
+
+.notification-bottom{
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.notification-text{
+  color: rgba(117, 117, 117, 1);
+  line-height: 20px;
+  font-size: 14px;
+}

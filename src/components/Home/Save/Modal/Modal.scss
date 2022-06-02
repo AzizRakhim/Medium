@@ -1,0 +1,145 @@
+.smodal__boxshadow{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.94);
+  z-index: 800;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.smodal__wrapper{
+  padding: 64px;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: fixed;
+  z-index: 900;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.smodal__container{
+  min-height: 550px;
+  width: 900px;
+  background: white;
+  box-shadow: rgb(0 0 0 / 15%) 0px 2px 10px;
+  padding: 18px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.smodal__holder{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.smodal__top{
+  width: 100%;
+  height: 400px;
+}
+
+.smodal__title{
+  padding-bottom: 60px;
+  letter-spacing: -0.014em;
+  line-height: 44px;
+  font-size: 36px;
+  font-weight: 700;
+  color: rgba(41, 41, 41, 1);
+}
+
+.smodal__input-box{
+  padding-bottom: 20px;
+}
+
+.smodal__input-border{
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.smodal__input{
+  width: 100%;
+  outline: 0px;
+  padding: 4px 0px;
+  border: none;
+
+  &:focus{
+    outline: none;
+    border: none;
+  }
+}
+
+.smodal__numbers{
+  margin-top: 4px;
+  font-size: 13px;
+  line-height: 20px;
+  color: rgba(117, 117, 117, 1);
+  display: flex;
+  justify-content: end;
+}
+
+.smodal__desc-box{
+  margin-bottom: 20px;
+}
+
+.smodal__btn{
+  border: none;
+  background-color: transparent;
+  line-height: 24px;
+  font-size: 16px;
+  color: rgba(26, 137, 23, 1);
+  display: flex;
+  justify-content: flex-start;
+}
+
+.smodal__checkbox{
+  margin-bottom: 0 !important;
+  margin-right: 10px;
+}
+
+.smodal__label{
+  width: 100%;
+  display: block;
+  text-align: left;
+}
+
+.smodal__cancel{
+  color: rgba(41, 41, 41, 1);
+  background-color: transparent;
+  border-radius: 99em;
+  padding: 7px 16px 9px;
+  line-height: 20px;
+  font-size: 14px;
+  border: 1px solid rgba(117, 117, 117, 1);
+}
+
+.smodal__create{
+  background: rgba(26, 137, 23, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 99em;
+  padding: 7px 16px 9px;
+  line-height: 20px;
+  font-size: 14px;
+  border: 1px solid rgba(26, 137, 23, 1);
+  margin-left: 8px;
+}
+
+.smodal__x-box{
+  position: absolute;
+  top: 18px;
+  right: 18px;
+}
+
+.smodal__x-btn{
+  border: none;
+  background-color: transparent;
+}
+

@@ -1,0 +1,169 @@
+.right{
+  width: 394px;
+  min-height: 100vh;
+}
+
+.right__position{
+  min-height: 100vh;
+  position: sticky;
+  border-left: 1px solid rgba(230, 230, 230, 1);
+  padding: 0 32px;
+  background-color: rgba(255, 255, 255, 1);
+  top: 0;
+  right: 0;
+}
+
+.right__top{
+  padding-top: 40px;
+  width: 100%;
+}
+
+.right__top-btn{
+  width: 100%;
+  border: 1px solid rgba(25, 25, 25, 1);
+  background-color: rgba(25, 25, 25, 1);
+  border-radius: 99em;
+  padding: 7px 16px 9px;
+  line-height: 20px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.right__bottom{
+  padding-top: 40px;
+}
+
+.right__search-box{
+  margin-bottom: 30px;
+  border: 1px solid rgba(230, 230, 230, 1);
+  border-radius: 20px;
+}
+
+.right__img-box{
+  display: inline-block;
+  padding: 7px 7px 6px 8px;
+}
+
+.right__input{
+  background-color: transparent;
+  padding: 8px 0 11px;
+  margin-right: 20px;
+  border: none;
+  outline: none;
+  color: rgba(41, 41, 41, 1);
+  line-height: 20px;
+  font-size: 14px;
+  width: 80%;
+
+  &:focus{
+    border: none;
+    outline: none;
+  }
+}
+
+.right__middle-box{
+  margin-bottom: 40px;
+}
+
+.right__middle-top{
+  margin-bottom: 22px;
+}
+
+.right__dot{
+  background-color: rgb(26, 137, 23);
+  display: inline-block;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  margin-bottom: 1px;
+  margin-right: 8px;
+}
+
+.right__middle-title{
+  letter-spacing: 0;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(41, 41, 41, 1);
+  line-height: 20px;
+}
+
+.right__list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.right__item{
+  padding-bottom: 20px;
+}
+
+.right__item-name{
+  min-height: 20px;
+  margin-bottom: 8px;
+}
+
+.right__item-img-box{
+  width: 20px;
+  height: 20px;
+
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+
+.right__item-person{
+  margin-top: 8px;
+  margin-left: 8px;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 500;
+  color: rgba(41, 41, 41, 1);
+}
+
+.right__item-person{
+  font-weight: 700;
+  letter-spacing: 0;
+  font-size: 16px;
+  color: rgba(41, 41, 41, 1);
+  line-height: 20px;
+}
+
+.right__full{
+  color: rgba(26, 137, 23, 1);
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+
+.right__follow-box{
+  padding: 10px 30px 30px;
+  border-bottom: 1px solid rgba(230, 230, 230, 1);
+
+  svg{
+    &:first-child{
+      width: 43px;
+      height: 25px;
+      fill: rgba(41, 41, 41, 1);
+    }
+
+    &:nth-child(2){
+      fill: rgba(117, 117, 117, 1);
+    }
+
+    &:last-child{
+      fill: rgb(56, 161, 243);
+    }
+  }
+}
+
+.right__svgs{
+  justify-content: center;
+}
+
+.right__last-text{
+  margin: 20px 0px;
+  text-align: center;
+}

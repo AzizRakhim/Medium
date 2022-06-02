@@ -1,0 +1,91 @@
+.signup{
+  height: 100vh;
+}
+
+.signup__left{
+  background: #c9ac8ced;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup__img-wrapper{
+  width: 500px;
+  height: 500px;
+
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.signup__right{
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup__wrapper{
+  width: 330px;
+}
+
+.signup__title{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 51px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.signup__link-box{
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  color: #000;
+  margin-bottom: 21px;
+}
+
+input{
+  border: 1px solid #b4b4bb;
+  border-radius: 10px;
+  padding-top: 16px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+
+  &::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #aaa;
+  }
+
+  &:not(:last-child){
+    margin-bottom: 16px;
+  }
+
+  &:focus{
+    border: 1px solid #ced4da;
+    box-shadow: none !important;
+  }
+}
+
+.signup__btn{
+  font-family: 'Roboto', sans-serif;  
+  width: 100%;
+  background: #152540;
+  border-radius: 99px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.forum-tdn{
+  text-decoration: none;
+  margin-left: 5px;
+}

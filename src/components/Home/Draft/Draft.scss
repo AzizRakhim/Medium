@@ -1,0 +1,126 @@
+.draft{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.draft__container{
+  width: 100%;
+  max-width: 692px;
+}
+
+.draft__title{
+  margin-top: 52px;
+  margin-bottom: 40px;
+  line-height: 52px;
+  font-size: 42px;
+  letter-spacing: 0px;
+  font-weight: 700;
+  color: rgba(41, 41, 41, 1);
+}
+
+.draft__btn{
+  background: rgb(26, 137, 23);
+  text-decoration: none;
+  border: 1px solid rgb(26, 137, 23);
+  border-radius: 99em;
+  padding: 7px 16px 9px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 20px;
+  font-size: 14px;
+  margin-right: 8px;
+  transition: all 0.2s ease;
+
+  &:nth-child(2){
+    border: 1px solid rgb(117, 117, 117);
+    background: none;
+    color: rgba(41, 41, 41, 1);
+
+    &:hover{
+      color: rgb(8, 8, 8);
+      border-color: rgba(41, 41, 41, 1);
+    }
+  }
+
+  &:nth-child(1){
+    &:hover{
+      color: rgba(255, 255, 255, 1);
+      background-color: rgb(15, 115, 12);
+      border-color: rgb(15, 115, 12);
+    }
+  }
+}
+
+.draft__list{
+  margin-bottom: 28px;
+  box-shadow: inset 0 -1px 0 rgb(230 230 230);
+}
+
+.draft__real-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.draft__item{
+  margin-right: 32px;
+  padding-bottom: 16px;
+  color: rgba(117, 117, 117, 1);
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.draft__publish-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.draft__publish-item{
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(230, 230, 230, 1);
+}
+
+.draft__publish-title-big{
+  font-weight: 700;
+  letter-spacing: 0;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(41, 41, 41, 1);
+}
+
+.draft__publish-title-small{
+  margin-top: 4px;
+  font-size: 16px;
+  color: rgba(117, 117, 117, 1);
+  line-height: 20px;
+}
+
+.draft__publish-bottom{
+  margin-top: 8px;
+}
+
+.draft__publish-time{
+  color: rgba(117, 117, 117, 1);
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.draft__single-dot{
+  padding: 0 4px;
+  color: rgba(117, 117, 117, 1);
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.draft__minute{
+  color: rgba(117, 117, 117, 1);
+  line-height: 20px;
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+.draft__upload{
+  margin: 0 2px;
+}

@@ -1,0 +1,51 @@
+.filter{
+  width: 100%;
+  max-width: 692px;
+  margin: 0 32px;
+  padding: 40px 0px 24px;
+  align-items: center;
+}
+
+.filter__topics{
+  text-transform: uppercase;
+  letter-spacing: 0.077em;
+  line-height: 18px;
+  font-size: 13px;
+  color: rgba(117, 117, 117, 1);
+}
+
+.filter__list{
+  width: 85%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 2px;
+  margin-left: 8px;
+  box-shadow: inset 0 -1px 0 rgb(230 230 230);
+  overflow-x: scroll;
+
+  &::-webkit-scrollbar{
+    height: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb{
+    background-color: #ccc;
+    border-radius: 10px;
+  }
+}
+
+.filter__btn{
+  padding: 8px 16px;
+  border: none;
+  border-radius: 100px;
+  background-color: rgba(242, 242, 242, 1);
+  color: rgba(41, 41, 41, 1);
+  line-height: 20px;
+  font-size: 14px;
+  margin-right: 8px;
+  transition: all 0.3s ease;
+
+  &:hover{
+    background-color: rgb(230, 230, 230);
+  }
+}
